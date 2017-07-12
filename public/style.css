@@ -1,9 +1,12 @@
+h1 {
+    text-align: center;
+}
 .gameBoard {
-    background: blue;
+    background: white;
     text-align: center;
 }
 td {
-    color: white;
+    color: blue;
 }
 .cat1 {
 
