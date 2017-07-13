@@ -1,17 +1,19 @@
 body{
-    display: flex;;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: auto;
+    background: black;
 }
 h1 {
     align-items: flex-start;
+    color: white;
 }
 .gameBoard {
     background: white;
-    height: 500px;
-    width: 450px;
+    height: 700px;
+    width: 1150px;
 }
 td {
     border: 1px solid black;
@@ -26,5 +28,6 @@ button {
     background: blue;
 }
 div {
-    align-items: baseline;
+    
+    color: white;
 }
