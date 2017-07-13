@@ -1,25 +1,30 @@
+body{
+    display: flex;;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
 h1 {
-    text-align: center;
+    align-items: flex-start;
 }
 .gameBoard {
     background: white;
-    text-align: center;
+    height: 500px;
+    width: 450px;
 }
 td {
+    border: 1px solid black;
     color: blue;
+    display: center;
 }
-.cat1 {
-
+button {
+    width: 100%;
+    height: 100%;
+    color: red;
+    font-size: 20pt;
+    background: blue;
 }
-.cat2 {
-
-}
-.cat3 {
-
-}
-.cat4 {
-
-}
-.cat5 {
-    
+div {
+    align-items: baseline;
 }
