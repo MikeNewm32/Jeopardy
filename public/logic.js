@@ -1,79 +1,206 @@
+// Click prompt for board
 $("#cat1quest1").on('click',function() {
-    prompt(question11);
+    var x = prompt(question11)
+        if (x === answer11) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat1quest2").on('click',function() {
-    prompt(question12);
+    var x = prompt(question12);
+        if (x === answer12) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat1quest3").on('click',function() {
     prompt(question13);
+        if (x === answer13) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat1quest4").on('click',function() {
     prompt(question14);
+        if (x === answer14) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat1quest5").on('click',function() {
     prompt(question15);
+        if (x === answer15) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat2quest1").on('click',function() {
     prompt(question21);
+        if (x === answer21) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat2quest2").on('click',function() {
     prompt(question22);
+        if (x === answer22) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat2quest3").on('click',function() {
     prompt(question23);
+        if (x === answer23) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat2quest4").on('click',function() {
     prompt(question24);
+        if (x === answer24) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat2quest5").on('click',function() {
     prompt(question25);
+        if (x === answer25) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat3quest1").on('click',function() {
     prompt(question31);
+        if (x === answer31) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat3quest2").on('click',function() {
     prompt(question32);
+        if (x === answer32) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat3quest3").on('click',function() {
     prompt(question33);
+        if (x === answer33) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat3quest4").on('click',function() {
     prompt(question34);
+        if (x === answer34) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat3quest5").on('click',function() {
     prompt(question35);
+        if (x === answer35) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat4quest1").on('click',function() {
     prompt(question41);
+        if (x === answer41) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat4quest2").on('click',function() {
     prompt(question42);
+        if (x === answer42) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat4quest3").on('click',function() {
     prompt(question43);
+        if (x === answer43) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat4quest4").on('click',function() {
     prompt(question44);
+        if (x === answer44) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat4quest5").on('click',function() {
     prompt(question45);
+        if (x === answer45) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat5quest1").on('click',function() {
     prompt(question51);
+        if (x === answer51) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat5quest2").on('click',function() {
     prompt(question52);
+        if (x === answer52) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat5quest3").on('click',function() {
     prompt(question53);
+        if (x === answer53) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat5quest4").on('click',function() {
     prompt(question54);
+        if (x === answer54) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 $("#cat5quest5").on('click',function() {
     prompt(question55);
+        if (x === answer55) {
+            alert("Correct");
+        } else {
+            alert("Incorrect");
+    }
 });
 
+// Question variables
 var question11 = "The Cuban Missile Crisis of 1962 was a confrontation between which two nations?";
 var question12 = "During WWII, a research and development project that produced the 1st nuclear weapons became known as what?";
 var question13 = "What year did the attack on Pearl Harbor take place?";
@@ -100,6 +227,7 @@ var question53 = "What amphibians do you raise if your run a ranarium?";
 var question54 = "What mollusk was obliged to share its name with the first waterproof watch?";
 var question55 = "What tree family includes the largest and fastest-growing living thing on Earth?";
 
+// Answer variables
 var answer11 = "Who are the USA and USSR";
 var answer12 = "What is The Manhattan Project";
 var answer13 = "What is 1941";
