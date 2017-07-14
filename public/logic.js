@@ -8,7 +8,7 @@ $("#cat1quest1").on('click',function() {
     }
 });
 $("#cat1quest2").on('click',function() {
-    var x = prompt(question12);
+    var x = prompt(question12)
         if (x === answer12) {
             alert("Correct");
         } else {
@@ -16,7 +16,7 @@ $("#cat1quest2").on('click',function() {
     }
 });
 $("#cat1quest3").on('click',function() {
-    prompt(question13);
+    var x = prompt(question13)
         if (x === answer13) {
             alert("Correct");
         } else {
@@ -24,7 +24,7 @@ $("#cat1quest3").on('click',function() {
     }
 });
 $("#cat1quest4").on('click',function() {
-    prompt(question14);
+  var x = prompt(question14)
         if (x === answer14) {
             alert("Correct");
         } else {
@@ -32,7 +32,7 @@ $("#cat1quest4").on('click',function() {
     }
 });
 $("#cat1quest5").on('click',function() {
-    prompt(question15);
+  var x = prompt(question15)
         if (x === answer15) {
             alert("Correct");
         } else {
@@ -40,7 +40,7 @@ $("#cat1quest5").on('click',function() {
     }
 });
 $("#cat2quest1").on('click',function() {
-    prompt(question21);
+  var x = prompt(question21)
         if (x === answer21) {
             alert("Correct");
         } else {
@@ -48,7 +48,7 @@ $("#cat2quest1").on('click',function() {
     }
 });
 $("#cat2quest2").on('click',function() {
-    prompt(question22);
+  var x = prompt(question22)
         if (x === answer22) {
             alert("Correct");
         } else {
@@ -56,7 +56,7 @@ $("#cat2quest2").on('click',function() {
     }
 });
 $("#cat2quest3").on('click',function() {
-    prompt(question23);
+  var x = prompt(question23)
         if (x === answer23) {
             alert("Correct");
         } else {
@@ -64,7 +64,7 @@ $("#cat2quest3").on('click',function() {
     }
 });
 $("#cat2quest4").on('click',function() {
-    prompt(question24);
+  var x = prompt(question24)
         if (x === answer24) {
             alert("Correct");
         } else {
@@ -72,7 +72,7 @@ $("#cat2quest4").on('click',function() {
     }
 });
 $("#cat2quest5").on('click',function() {
-    prompt(question25);
+  var x = prompt(question25)
         if (x === answer25) {
             alert("Correct");
         } else {
@@ -80,7 +80,7 @@ $("#cat2quest5").on('click',function() {
     }
 });
 $("#cat3quest1").on('click',function() {
-    prompt(question31);
+  var x = prompt(question31)
         if (x === answer31) {
             alert("Correct");
         } else {
@@ -88,7 +88,7 @@ $("#cat3quest1").on('click',function() {
     }
 });
 $("#cat3quest2").on('click',function() {
-    prompt(question32);
+  var x = prompt(question32)
         if (x === answer32) {
             alert("Correct");
         } else {
@@ -96,7 +96,7 @@ $("#cat3quest2").on('click',function() {
     }
 });
 $("#cat3quest3").on('click',function() {
-    prompt(question33);
+  var x = prompt(question33)
         if (x === answer33) {
             alert("Correct");
         } else {
@@ -104,7 +104,7 @@ $("#cat3quest3").on('click',function() {
     }
 });
 $("#cat3quest4").on('click',function() {
-    prompt(question34);
+  var x = prompt(question34)
         if (x === answer34) {
             alert("Correct");
         } else {
@@ -112,7 +112,7 @@ $("#cat3quest4").on('click',function() {
     }
 });
 $("#cat3quest5").on('click',function() {
-    prompt(question35);
+  var x = prompt(question35)
         if (x === answer35) {
             alert("Correct");
         } else {
@@ -120,7 +120,7 @@ $("#cat3quest5").on('click',function() {
     }
 });
 $("#cat4quest1").on('click',function() {
-    prompt(question41);
+  var x = prompt(question41)
         if (x === answer41) {
             alert("Correct");
         } else {
@@ -128,7 +128,7 @@ $("#cat4quest1").on('click',function() {
     }
 });
 $("#cat4quest2").on('click',function() {
-    prompt(question42);
+  var x = prompt(question42)
         if (x === answer42) {
             alert("Correct");
         } else {
@@ -136,7 +136,7 @@ $("#cat4quest2").on('click',function() {
     }
 });
 $("#cat4quest3").on('click',function() {
-    prompt(question43);
+  var x = prompt(question43)
         if (x === answer43) {
             alert("Correct");
         } else {
@@ -144,7 +144,7 @@ $("#cat4quest3").on('click',function() {
     }
 });
 $("#cat4quest4").on('click',function() {
-    prompt(question44);
+  var x = prompt(question44)
         if (x === answer44) {
             alert("Correct");
         } else {
@@ -152,7 +152,7 @@ $("#cat4quest4").on('click',function() {
     }
 });
 $("#cat4quest5").on('click',function() {
-    prompt(question45);
+  var x = prompt(question45)
         if (x === answer45) {
             alert("Correct");
         } else {
@@ -160,7 +160,7 @@ $("#cat4quest5").on('click',function() {
     }
 });
 $("#cat5quest1").on('click',function() {
-    prompt(question51);
+  var x = prompt(question51)
         if (x === answer51) {
             alert("Correct");
         } else {
@@ -168,7 +168,7 @@ $("#cat5quest1").on('click',function() {
     }
 });
 $("#cat5quest2").on('click',function() {
-    prompt(question52);
+  var x = prompt(question52)
         if (x === answer52) {
             alert("Correct");
         } else {
@@ -176,7 +176,7 @@ $("#cat5quest2").on('click',function() {
     }
 });
 $("#cat5quest3").on('click',function() {
-    prompt(question53);
+  var x = prompt(question53)
         if (x === answer53) {
             alert("Correct");
         } else {
@@ -184,7 +184,7 @@ $("#cat5quest3").on('click',function() {
     }
 });
 $("#cat5quest4").on('click',function() {
-    prompt(question54);
+  var x = prompt(question54)
         if (x === answer54) {
             alert("Correct");
         } else {
@@ -192,7 +192,7 @@ $("#cat5quest4").on('click',function() {
     }
 });
 $("#cat5quest5").on('click',function() {
-    prompt(question55);
+  var x = prompt(question55)
         if (x === answer55) {
             alert("Correct");
         } else {
