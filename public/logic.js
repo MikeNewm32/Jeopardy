@@ -1,201 +1,334 @@
+var playerScore = 0;
+function addPoints() {
+    $('.player').text("Player score = $" + playerScore.toString());
+}
+function subtractPoints() {
+    $('.player').text("Player score = $" + playerScore.toString());
+}
+
 // Click prompt for board
 $("#cat1quest1").on('click',function() {
-    var x = prompt(question11)
+    var x = prompt(question11);
+    var points = 100;
         if (x === answer11) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat1quest2").on('click',function() {
     var x = prompt(question12)
+    var points = 200;
         if (x === answer12) {
+            playerScore += parseInt(points);
+            addPoints();            
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat1quest3").on('click',function() {
     var x = prompt(question13)
+    var points = 300;
         if (x === answer13) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat1quest4").on('click',function() {
-  var x = prompt(question14)
+    var x = prompt(question14)
+    var points = 400;
         if (x === answer14) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat1quest5").on('click',function() {
-  var x = prompt(question15)
+    var x = prompt(question15)
+    var points = 500;
         if (x === answer15) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat2quest1").on('click',function() {
-  var x = prompt(question21)
+    var x = prompt(question21)
+    var points = 100;
         if (x === answer21) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat2quest2").on('click',function() {
-  var x = prompt(question22)
+    var x = prompt(question22)
+    var points = 200;
         if (x === answer22) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat2quest3").on('click',function() {
-  var x = prompt(question23)
+    var x = prompt(question23)
+    var points = 300;
         if (x === answer23) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat2quest4").on('click',function() {
-  var x = prompt(question24)
+    var x = prompt(question24)
+    var points = 400;
         if (x === answer24) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat2quest5").on('click',function() {
-  var x = prompt(question25)
+    var x = prompt(question25)
+    var points = 500;
         if (x === answer25) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat3quest1").on('click',function() {
-  var x = prompt(question31)
+    var x = prompt(question31)
+    var points = 100;
         if (x === answer31) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat3quest2").on('click',function() {
-  var x = prompt(question32)
+    var x = prompt(question32)
+    var points = 200;
         if (x === answer32) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat3quest3").on('click',function() {
-  var x = prompt(question33)
+    var x = prompt(question33)
+    var points = 300;
         if (x === answer33) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat3quest4").on('click',function() {
-  var x = prompt(question34)
+    var x = prompt(question34)
+    var points = 400;
         if (x === answer34) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat3quest5").on('click',function() {
-  var x = prompt(question35)
+    var x = prompt(question35)
+    var points = 500;
         if (x === answer35) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat4quest1").on('click',function() {
-  var x = prompt(question41)
+    var x = prompt(question41)
+    var points = 100;
         if (x === answer41) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat4quest2").on('click',function() {
-  var x = prompt(question42)
+    var x = prompt(question42)
+    var points = 200;
         if (x === answer42) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat4quest3").on('click',function() {
-  var x = prompt(question43)
+    var x = prompt(question43)
+    var points = 300;
         if (x === answer43) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat4quest4").on('click',function() {
-  var x = prompt(question44)
+    var x = prompt(question44)
+    var points = 400;
         if (x === answer44) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat4quest5").on('click',function() {
-  var x = prompt(question45)
+    var x = prompt(question45)
+    var points = 500;
         if (x === answer45) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat5quest1").on('click',function() {
-  var x = prompt(question51)
+    var x = prompt(question51)
+    var points = 100;
         if (x === answer51) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat5quest2").on('click',function() {
-  var x = prompt(question52)
+    var x = prompt(question52)
+    var points = 200;
         if (x === answer52) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat5quest3").on('click',function() {
-  var x = prompt(question53)
+    var x = prompt(question53)
+    var points = 300;
         if (x === answer53) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat5quest4").on('click',function() {
-  var x = prompt(question54)
+    var x = prompt(question54)
+    var points = 400;
         if (x === answer54) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
 $("#cat5quest5").on('click',function() {
-  var x = prompt(question55)
+    var x = prompt(question55)
+    var points = 500;
         if (x === answer55) {
+            playerScore += parseInt(points);
+            addPoints();
             alert("Correct");
         } else {
+            playerScore -= parseInt(points);
+            subtractPoints();
             alert("Incorrect");
     }
 });
