@@ -11,7 +11,7 @@
 
 # Links
 
-### [Jeopardy Game](https://michaelsjeopardygame.bitballoon.com)
+### [Jeopardy Game](https://www.bitballoon.com/sites/michaelsjeopardygame)
 
 ### [Trello Board](https://trello.com/b/zelRck1y/wdi-11-project-1)
 
