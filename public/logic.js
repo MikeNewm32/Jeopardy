@@ -5,9 +5,6 @@ function addPoints() {
 function subtractPoints() {
     $('.player').text("Player score = $" + playerScore.toString());
 }
-function winner() {
-    
-}
 
 // Click prompt for board
 $("#cat1quest1").on('click',function() {
