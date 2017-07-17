@@ -14,10 +14,12 @@ $("#cat1quest1").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat1quest2").on('click',function() {
@@ -27,10 +29,12 @@ $("#cat1quest2").on('click',function() {
             playerScore += parseInt(points);
             addPoints();            
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat1quest3").on('click',function() {
@@ -40,10 +44,12 @@ $("#cat1quest3").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat1quest4").on('click',function() {
@@ -53,10 +59,12 @@ $("#cat1quest4").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat1quest5").on('click',function() {
@@ -66,10 +74,12 @@ $("#cat1quest5").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat2quest1").on('click',function() {
@@ -79,10 +89,12 @@ $("#cat2quest1").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat2quest2").on('click',function() {
@@ -92,10 +104,12 @@ $("#cat2quest2").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat2quest3").on('click',function() {
@@ -105,10 +119,13 @@ $("#cat2quest3").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
+
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat2quest4").on('click',function() {
@@ -118,10 +135,12 @@ $("#cat2quest4").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat2quest5").on('click',function() {
@@ -131,10 +150,12 @@ $("#cat2quest5").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat3quest1").on('click',function() {
@@ -144,10 +165,12 @@ $("#cat3quest1").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat3quest2").on('click',function() {
@@ -157,10 +180,12 @@ $("#cat3quest2").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat3quest3").on('click',function() {
@@ -170,10 +195,12 @@ $("#cat3quest3").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat3quest4").on('click',function() {
@@ -183,10 +210,12 @@ $("#cat3quest4").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat3quest5").on('click',function() {
@@ -196,10 +225,12 @@ $("#cat3quest5").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat4quest1").on('click',function() {
@@ -209,10 +240,12 @@ $("#cat4quest1").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat4quest2").on('click',function() {
@@ -222,10 +255,12 @@ $("#cat4quest2").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat4quest3").on('click',function() {
@@ -235,10 +270,12 @@ $("#cat4quest3").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat4quest4").on('click',function() {
@@ -248,10 +285,12 @@ $("#cat4quest4").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat4quest5").on('click',function() {
@@ -261,10 +300,12 @@ $("#cat4quest5").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat5quest1").on('click',function() {
@@ -274,10 +315,12 @@ $("#cat5quest1").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat5quest2").on('click',function() {
@@ -287,10 +330,12 @@ $("#cat5quest2").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat5quest3").on('click',function() {
@@ -300,10 +345,12 @@ $("#cat5quest3").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat5quest4").on('click',function() {
@@ -313,10 +360,12 @@ $("#cat5quest4").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 $("#cat5quest5").on('click',function() {
@@ -326,10 +375,12 @@ $("#cat5quest5").on('click',function() {
             playerScore += parseInt(points);
             addPoints();
             alert("Correct");
+            $(this).prop('disabled', true)
         } else {
             playerScore -= parseInt(points);
             subtractPoints();
             alert("Incorrect");
+            $(this).prop('disabled', true)
     }
 });
 
