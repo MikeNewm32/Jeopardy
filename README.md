@@ -8,6 +8,12 @@
 *JS 
 *CSS
 
-### file:///Users/michaelnewman/ga/unit_projects/unit_projects/Jeopardy/public/index.html
+### 
 
 ### https://trello.com/b/zelRck1y/wdi-11-project-1
+
+<a href="http://imgur.com/Z2IGSGp"><img src="http://i.imgur.com/Z2IGSGp.png" title="source: imgur.com" /></a>
+
+<a href="http://imgur.com/kryUNOm"><img src="http://i.imgur.com/kryUNOm.png" title="source: imgur.com" /></a>
+
+<a href="http://imgur.com/ObL6U7s"><img src="http://i.imgur.com/ObL6U7s.png" title="source: imgur.com" /></a>
