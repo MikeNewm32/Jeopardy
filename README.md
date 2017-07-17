@@ -8,7 +8,7 @@
 *JS 
 *CSS
 
-### michaelsjeopardygame.bitballoon.com
+### www.michaelsjeopardygame.bitballoon.com
 
 ### https://trello.com/b/zelRck1y/wdi-11-project-1
 
