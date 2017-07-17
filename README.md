@@ -10,12 +10,12 @@
 
 # Links
 
-### https://michaelsjeopardygame.bitballoon.com
+### [Jeopardy Game](https://michaelsjeopardygame.bitballoon.com)
 
-### https://trello.com/b/zelRck1y/wdi-11-project-1
+### [Trello Board](https://trello.com/b/zelRck1y/wdi-11-project-1)
 
 
-
+# Wireframe Screenshots
 
 <a href="http://imgur.com/Z2IGSGp"><img src="http://i.imgur.com/Z2IGSGp.png" title="source: imgur.com" /></a>
 
