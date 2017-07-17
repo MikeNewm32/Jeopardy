@@ -22,3 +22,8 @@
 <a href="http://imgur.com/kryUNOm"><img src="http://i.imgur.com/kryUNOm.png" title="source: imgur.com" /></a>
 
 <a href="http://imgur.com/ObL6U7s"><img src="http://i.imgur.com/ObL6U7s.png" title="source: imgur.com" /></a>
+
+
+# Future Goals
+
+### In the future this game will be able to be played by multiple players and use modals to prompt the questions and answers. Also after adding multiple players the game will be able to declare a winner. 
